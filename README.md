@@ -1,6 +1,7 @@
 # Teaset
-[🇬🇧English version](./docs/en/README.md)
-[🇨🇳中文完整文档版](./docs/cn/README.md)
+[🇬🇧 English version](./docs/en/README.md)
+
+[🇨🇳 中文完整文档版](./docs/cn/README.md)
 
 A UI library for react native, provides 20+ pure JS(ES6) components, focusing on content display and action control.
 

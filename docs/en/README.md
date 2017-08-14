@@ -1,5 +1,5 @@
 # Teaset
-[🇨🇳中文完整文档版](../cn/README.md)
+[🇨🇳 中文完整文档版](../cn/README.md)
 
 React Native UI Component, more than 20 pure JS (ES6) components, focused on content display and operational control.
 
