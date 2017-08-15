@@ -8,7 +8,7 @@ Teaset provides [ThemeDefault.js](/themes/ThemeDefault.js), [ThemeBlack.js](/the
 
 It is recommended that you set the Theme definition at the code entry. If you modify the Theme definition during the App run, you will need to reload the rendered page.
 ## Example
-Modify collor theme
+Modify theme
 ```js
 import {Theme} from 'teaset';
 

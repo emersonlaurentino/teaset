@@ -5,8 +5,8 @@ Used for text display, typically a single line of text.
 | Prop | Type | Default | Note |
 |---|---|---|---|
 | [Text props...](https://facebook.github.io/react-native/docs/text.html) |  |  | Label inherits all the properties of the Text component.
-| type | string | 'default' | - default: The font color defined is dark gray (#333)<br/>- title: The font color defined is black (#000), the font size is 1.1 times<br/>- detail: The font color defined is light gray (#989898), the font size is 0.9 times the default<br/>- danger: The font color defined is red
-| size | string | 'md' | - xl: oversize, the size of the font defined is 26<br/>- lg: large, the size of the font defined is 20<br/>- md: default, the size of the font defined is 14<br/>- sm: small, the size of the font defined is 10<br/>- xs: tiny, the size of the font defined is 8
+| type | string | 'default' | - default: font-color: #333333<br/>- title: font-color: #000000, font-size: 1.1<br/>- detail: font-color: #898989, font-size: 0.9<br/>- danger: font-color: #a94442
+| size | string | 'md' | - xl: oversized<br/>- lg: large<br/>- md: medium<br/>- sm: small<br/>- xs: tiny
 | text | string<br/>number |  | Display text
 | numberOfLines | number | 1 | Show the number of rows
 
