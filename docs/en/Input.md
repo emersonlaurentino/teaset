@@ -28,13 +28,13 @@ None.
 ## Example
 Simple usage
 ```js
-<Input style={{ width: 200 }} />
+<Input style={{  width: 200  }} />
 ```
 
 Using the value and size attributes
 ```js
 <Input
-  style={{ width: 200 }}
+  style={{  width: 200  }}
   size="lg"
   value={this.state.value}
   onChangeText={value => this.setState({ value })}
@@ -43,18 +43,18 @@ Using the value and size attributes
 
 Read only
 ```js
-<Input style={{ width: 200 }} editable={false} />
+<Input style={{  width: 200  }} editable={false} />
 ```
 
 Disabled
 ```js
-<Input style={{ width: 200 }} disabled />
+<Input style={{  width: 200  }} disabled />
 ```
 
 Customize style
 ```js
 <Input
-  style={{ width: 200, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b', color: '#8a6d3b', textAlign: 'right' }}
+  style={{  width: 200 , backgroundColor: '#fcf8e3', borderColor: '#8a6d3b', color: '#8a6d3b', textAlign: 'right' }}
   value={this.state.valueCustom}
   onChangeText={value => this.setState({ value })}
 />

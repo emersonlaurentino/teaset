@@ -30,23 +30,23 @@ None.
 ## Example
 简单用法
 ```
-<SearchInput style={{width: 200}} placeholder='Enter text' />
+<SearchInput style={{ width: 200 }} placeholder='Enter text' />
 ```
 
 只读
 ```
-<SearchInput style={{width: 200}} placeholder='Enter text' editable={false} />
+<SearchInput style={{ width: 200 }} placeholder='Enter text' editable={false} />
 ```
 
 禁用
 ```
-<SearchInput style={{width: 200}} placeholder='Enter text' disabled={true} />
+<SearchInput style={{ width: 200 }} placeholder='Enter text' disabled={true} />
 ```
 
 自定义
 ```
 <SearchInput
-  style={{width: 200, height: 40, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b'}}
+  style={{ width: 200 , height: 40, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b'}}
   inputStyle={{color: '#8a6d3b', fontSize: 18}}
   iconSize={15}
   value={this.state.valueCustom}

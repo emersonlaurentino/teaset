@@ -55,14 +55,14 @@ export default class Login extends BasePage {
     return (
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Input
-          style={{width: 200}}
+          style={{ width: 200 }}
           size='sm'
           value={this.state.userName}
           placeholder='用户名'
           onChangeText={text => this.setState({userName: text})}
           />
         <Input
-          style={{width: 200}}
+          style={{ width: 200 }}
           size='sm'
           value={this.state.password}
           placeholder='密码'
