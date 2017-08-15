@@ -20,7 +20,7 @@ NavigationPage 定义一个导航页面组件, 继承自 [BasePage](./BasePage.m
 | renderNavigationBar |  | element | 导航条渲染函数, 一般应重写上面三个函数, 而不是此函数。
 
 ## Example
-简单用法
+Simple usage
 ```
 import React from 'react';
 import {View} from 'react-native';

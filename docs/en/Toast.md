@@ -32,7 +32,7 @@ Toast 为轻提示静态类, 与 Android 的 Toast 作用类似, 使用纯 JS �
 | position | string | 'center' | 轻提示框显示位置。<br/>- top: 窗口靠上位置<br/>- bottom: 窗口靠下位置<br/>- center: 窗口中间位置<br/>top 、 bottom 位置可在 Theme 中设置。
 
 ## Example
-简单用法
+Simple usage
 ```
 Toast.message('Toast message');
 Toast.success('Toast success');
@@ -43,7 +43,7 @@ Toast.info('Toast info');
 Toast.stop('Toast stop');
 ```
 
-自定义
+Customize style
 ```
 static customKey = null;
 

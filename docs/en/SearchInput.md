@@ -28,7 +28,7 @@ None.
 -->
 
 ## Example
-简单用法
+Simple usage
 ```
 <SearchInput style={{ width: 200 }} placeholder='Enter text' />
 ```
@@ -43,7 +43,7 @@ None.
 <SearchInput style={{ width: 200 }} placeholder='Enter text' disabled={true} />
 ```
 
-自定义
+Customize style
 ```
 <SearchInput
   style={{ width: 200 , height: 40, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b'}}

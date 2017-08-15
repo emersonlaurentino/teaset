@@ -35,7 +35,7 @@ ActionSheet 为操作选单静态类, 一般用于触发一个多项子操作供
 | disabled | bool | false | Tell if the input is disabled
 
 ## Example
-简单用法
+Simple usage
 ```
 let items = [
   {title: 'Say hello', onPress: () => alert('Hello')},

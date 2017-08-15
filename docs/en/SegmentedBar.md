@@ -45,7 +45,7 @@ None.
 | active | bool | false | 是否激活。
 
 ## Example
-简单用法
+Simple usage
 ```
 <SegmentedBar>
   <SegmentedBar.Item title='Apple' />
@@ -70,7 +70,7 @@ None.
 </SegmentedBar>
 ```
 
-自定义 Item
+Customize style Item
 ```
 <SegmentedBar justifyItem='scrollable'>
   <View style={{padding: 8}} pointerEvents='none'>

@@ -23,7 +23,7 @@ Drawer 为抽屉静态类, 内部视图为 Overlay.PullView 的易用性简单�
 | [Overlay.PullView events...](./Overlay.md#overlaypullview--props) |  | Drawer.DrawerView 组件继承 Overlay.PullView 组件的全部事件。
 
 ## Example
-简单用法
+Simple usage
 ```
 let view = (
   <View style={{backgroundColor: Theme.defaultColor, height: 260}}>

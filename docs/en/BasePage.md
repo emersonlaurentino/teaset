@@ -29,7 +29,7 @@ BasePage 定义一个基础页面组件, 是 Page 的抽象封装, 需要派生�
 | renderPage |  | element | 页面渲染函数, BasePage 所有派生类都应该重写此函数渲染界面, 而不是 render 函数。
 
 ## Example
-简单用法
+Simple usage
 ```
 import React from 'react';
 import {Navigator, View} from 'react-native';

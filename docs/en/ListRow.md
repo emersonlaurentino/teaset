@@ -50,18 +50,18 @@ None.
 -->
 
 ## Example
-简单用法
+Simple usage
 ```
 <ListRow title='Title' detail='Detail' />
 ```
 
-自定义 title
+Customize style title
 ```
 <ListRow title='Custom title' titleStyle={{fontSize: 18, color: '#31708f'}} />
 <ListRow title={<Label style={{fontSize: 18, color: '#31708f'}} text='Custom title' />} />
 ```
 
-自定义 detail
+Customize style detail
 ```
 <ListRow title='Custom detail' detail='This is detail' detailStyle={{fontSize: 15, color: '#31708f'}} />
 <ListRow title='Custom detail' detail={
@@ -84,7 +84,7 @@ detail 长文本、标题显示在上侧
 <ListRow title='Icon' icon={require('../icons/config.png')} />
 ```
 
-大于号指示图标、自定义指示图标
+大于号指示图标、Customize style指示图标
 ```
 <ListRow title='Accessory indicator' accessory='indicator' />
 <ListRow title='Custom accessory' accessory={<Image source={require('../icons/location.png')} />} />

@@ -10,7 +10,7 @@ Carousel 组件定义一个跑马灯组件, 一般用于图片、信息页面轮
 | direction | string | 'forward' | 轮播方向, carousel = true 时有效。<br/>- forward: 正向轮播，页面从右往左滚动<br/>- backward: 反向轮播, 页面从左往右滚动
 | startIndex | number | 0 | 开始页面序号。
 | cycle | bool | true | 是否循环, carousel = true 时有效。
-| control | bool<br/>element | false | 页面控制器, 为 true 时显示默认页面控制器, 也可以传入自定义的页面控制器, 建议使用 Carousel.Control 组件。
+| control | bool<br/>element | false | 页面控制器, 为 true 时显示默认页面控制器, 也可以传入Customize style的页面控制器, 建议使用 Carousel.Control 组件。
 | horizontal | bool | true | 继承自 ScrollView 并修改默认值, 默认横向滚动, 为 false 时则纵向滚动。
 | pagingEnabled | bool | true | 继承自 ScrollView 并修改默认值。
 | showsHorizontalScrollIndicator | bool | false | 继承自 ScrollView 并修改默认值。
@@ -51,7 +51,7 @@ None.
 | activeDot | element |  | 页面控制器当前页按钮, React Native 组件。
 
 ## Example
-简单用法
+Simple usage
 ```
 <Carousel style={{height: 238}}>
   <Image style={{width: 375, height: 238}} resizeMode='cover' source={require('../images/teaset1.jpg')} />
@@ -67,7 +67,7 @@ None.
 </Carousel>
 ```
 
-自定义页面控制器
+Customize style页面控制器
 ```
 <Carousel
   style={{height: 238}}

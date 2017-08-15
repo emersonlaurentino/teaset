@@ -74,7 +74,7 @@ None.
 | icon | 同Image.source |  | 按钮图标, 默认为 iOS 系统返回按钮的样式。
 
 ## Example
-简单用法
+Simple usage
 ```
 <NavigationBar title='Teaset' />
 ```
@@ -89,7 +89,7 @@ Android风格导航条
 <NavigationBar title='Teaset' leftView={<NavigationBar.BackButton title='Back' />} />
 ```
 
-自定义
+Customize style
 ```
 <NavigationBar
   style={{backgroundColor: '#eff'}}

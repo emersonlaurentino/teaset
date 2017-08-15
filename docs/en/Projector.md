@@ -23,7 +23,7 @@ None.
 -->
 
 ## Example
-简单用法
+Simple usage
 ```
 <Projector style={{height: 238}} index={this.state.index}>
   {this.renderSlide('#dff0d8')}

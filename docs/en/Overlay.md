@@ -56,7 +56,7 @@ Overlay 使得 React Native 开发从二维变成三维的, 你可以在页面�
 | Prop | Type | Default | Note |
 |---|---|---|---|
 | [Overlay.View props...](#overlayview--props) |  |  | Overlay.PopView 组件继承 Overlay.View 组件的全部属性。
-| type | string | 'zoomOut' | 弹出效果。<br/>- zoomOut: 缩小, 弹出框放大后动画过度到原大<br/>- zoomIn: 放大, 弹出框缩小后动画过度到原大<br/>- custom: 自定义, 弹出框从 customBounds 位置和大小动画过度到原大
+| type | string | 'zoomOut' | 弹出效果。<br/>- zoomOut: 缩小, 弹出框放大后动画过度到原大<br/>- zoomIn: 放大, 弹出框缩小后动画过度到原大<br/>- custom: Customize style, 弹出框从 customBounds 位置和大小动画过度到原大
 | containerStyle | 同View.style |  | 弹出框容器样式。
 | customBounds | Rect |  | 弹出框动画过度起始位置和大小, type = 'custom' 时有效。<br/>type Rect {<br/>&ensp;&ensp;x: number,<br/>&ensp;&ensp;y: number,<br/>&ensp;&ensp;width: number,<br/>&ensp;&ensp;height: number,<br/>}
 | animated | bool | true | 继承自 Overlay.View 并修改默认属性。

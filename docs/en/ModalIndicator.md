@@ -22,7 +22,7 @@ ModalIndicator 为模态指示器静态类, 一般在需要阻止用户操作时
 | color | 同ActivityIndicator.color |  | 模态指示器颜色, 默认值在 Theme 中设置。
 
 ## Example
-简单用法
+Simple usage
 ```
 ModalIndicator.show(`Modal indicator`);
 ```

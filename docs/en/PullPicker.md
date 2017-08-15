@@ -39,7 +39,7 @@ PullPicker 为上拉选择器静态类, 一般用于触发显示一个数据列�
 | selected | bool |  | 是否已选中。
 
 ## Example
-简单用法
+Simple usage
 ```
 let items = [
   'Apple',

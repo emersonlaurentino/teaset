@@ -47,7 +47,7 @@ None.
 | badge | string<br/>number<br/>element |  | 徽章, 可以是字符串、数字或 React Native 组件, 为字符串、数字时使用 `<Badge />`组件渲染。
 
 ## Example
-简单用法
+Simple usage
 ```
 <SegmentedView style={{flex: 1}} type='projector'>
   <SegmentedView.Sheet title='one' badge={1}>

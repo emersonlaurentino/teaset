@@ -19,7 +19,7 @@ TabView 组件定义一个标签页组件, 用于在一个页面上显示多个�
 | Prop | Type | Default | Note |
 |---|---|---|---|
 | [Sheet](#tabviewsheet--props) | class |  | 标签页 Sheet 组件。
-| [Button](#tabviewbutton--props) | class |  | 标签页按钮组件。<br/>此组件由 Sheet 组件自动渲染, 无须代码显式声明, 但可以修改 TabView.Button 为自定义类以更改标签页按钮组件。
+| [Button](#tabviewbutton--props) | class |  | 标签页按钮组件。<br/>此组件由 Sheet 组件自动渲染, 无须代码显式声明, 但可以修改 TabView.Button 为Customize style类以更改标签页按钮组件。
 
 <!--
 ## Methods
@@ -56,7 +56,7 @@ None.
 | active | bool | false | 是否激活。
 
 ## Example
-简单用法
+Simple usage
 ```
 <TabView style={{flex: 1}} type='projector'>
   <TabView.Sheet

@@ -23,14 +23,14 @@ None.
 -->
 
 ## Example
-简单用法
+Simple usage
 ```
 <Popover arrow='bottom'>
   <Label text='Popover' />
 </Popover>
 ```
 
-自定义
+Customize style
 ```
 let blackStyle = {
   backgroundColor: 'rgba(0, 0, 0, 0.8)',

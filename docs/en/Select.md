@@ -24,17 +24,6 @@ Select
 | [TouchableOpacity events...](https://facebook.github.io/react-native/docs/touchableopacity.html) |  | Select inherits all the properties of the TouchableOpacity
 | onSelected | (item, index) | When the selector chooses an item array when an item is called, item = items [index]
 
-<!--
-## Methods
-None.
-
-## Static Props
-None.
-
-## Static Methods
-None.
--->
-
 ## Example
 Simple usage
 ```js
@@ -74,7 +63,7 @@ this.customItems = [
 ];
 
 <Select
-  style={{ width: 200, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b'}}
+  style={{ width: 200, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b' }}
   value={this.state.valueCustom}
   valueStyle={{ flex: 1, color: '#8a6d3b', textAlign: 'right' }}
   items={this.customItems}

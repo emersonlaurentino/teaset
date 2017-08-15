@@ -16,7 +16,7 @@ TeaNavigator 定义一个导航器, 封装 React Native 的 Navigator 组件并�
 | navigator | func | 无入参, 返回 navigator 组件。
 
 ## Example
-简单用法
+Simple usage
 ```
 <TeaNavigator rootView={<YourRootView />} />
 ```

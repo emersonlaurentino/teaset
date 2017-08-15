@@ -1,5 +1,5 @@
 # `<Badge />` 徽章
-Badge 组件定义一个徽章, 可用于图标角标显示数字、字母、原点等, 也可以自定义显示其它内容。
+Badge 组件定义一个徽章, 可用于图标角标显示数字、字母、原点等, 也可以Customize style显示其它内容。
 
 ## Props
 | Prop | Type | Default | Note |
@@ -25,7 +25,7 @@ None.
 -->
 
 ## Example
-简单用法
+Simple usage
 ```
 <Badge count={6} />
 ```
@@ -40,7 +40,7 @@ None.
 <Badge type='dot' />
 ```
 
-自定义
+Customize style
 ```
 <Badge style={{backgroundColor: '#777', paddingLeft: 0, paddingRight: 0}}>
   <Text style={{color: '#fff'}}>$</Text>

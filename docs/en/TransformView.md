@@ -31,7 +31,7 @@ None.
 -->
 
 ## Example
-简单用法
+Simple usage
 ```
 <TransformView
   style={{backgroundColor: '#fff', flex: 1, alignItems: 'center', justifyContent: 'center'}}
