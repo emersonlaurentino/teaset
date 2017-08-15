@@ -15,7 +15,7 @@ Stepper 组件定义一个步进器。
 | subButton | string<br/>element | '-' | “减“按钮, 可以是字符串或 React Native 组件。
 | addButton | string<br/>element | '+' | “加“按钮, 可以是字符串或 React Native 组件。
 | showSeparator | bool | true | 是否显示按钮与值之间的分隔线, 如需完全自定义组件样式可设置为 false。
-| disabled | bool | false | 是否禁用, 为 true 时组件显示为半透明且不可触摸。
+| disabled | bool | false | Tell if the input is disabled
 | editable | bool | true | 是否可编辑。
 
 ## Events

@@ -8,7 +8,7 @@ SearchInput 组件定义一个搜索输入框, 与 Input 的区别是有多一�
 | style | 同View.style |  | 组件样式, 也就是组件的容器 View 的样式。
 | inputStyle | 同TextInput.style |  | 输入框样式。
 | iconSize | number |  | 放大镜图标长宽尺寸, 默认值在 Theme 中设置。
-| disabled | bool | false | 是否禁用, 为 true 时组件显示为半透明且不可触摸。
+| disabled | bool | false | Tell if the input is disabled
 | underlineColorAndroid | string | 'rgba(0, 0, 0, 0)' | 继承自 TextInput 并修改默认值。
 
 ## Events

@@ -1,18 +1,18 @@
-# `<Input />` 输入框
-Input 组件定义一个输入编辑框。
+# Input
+A basic widget for getting the user input is a text field.
 
 ## Props
 | Prop | Type | Default | Note |
 |---|---|---|---|
-| [TextInput props...](https://facebook.github.io/react-native/docs/textinput.html) |  |  | Input 组件继承 TextInput 组件的全部属性。
-| size | string | 'md' | 显示尺寸大小。<br/>- lg: 大<br/>- md: 中<br/>- sm: 小<br/>显示效果参见[Screenshots](#screenshots)。
-| disabled | bool | false | 组件是否禁用, 为 true 时组件显示为半透明且不可聚焦。 |
-| underlineColorAndroid | string | 'rgba(0, 0, 0, 0)' | 继承自 TextInput 并修改默认值。
+| [TextInput props...](https://facebook.github.io/react-native/docs/textinput.html) |  |  | Input inherits all the properties of the TextInput
+| size | string | 'md' | - lg: large<br/>- md: medium<br/>- sm: small
+| disabled | bool | false | Tell if the input is disabled
+| underlineColorAndroid | string | 'rgba(0, 0, 0, 0)' | Inherited from TextInput and modify the default values.
 
 ## Events
 | Event Name | Returns | Notes |
 |---|---|---|
-| [TextInput events...](https://facebook.github.io/react-native/docs/textinput.html) |  | Input 组件继承 TextInput 组件的全部事件。
+| [TextInput props...](https://facebook.github.io/react-native/docs/textinput.html) |  |  | Input inherits all the properties of the TextInput
 
 <!--
 ## Methods
@@ -26,37 +26,38 @@ None.
 -->
 
 ## Example
-简单用法
-```
-<Input style={{width: 200}} />
-```
-
-使用 size、value 属性
-```
-<Input style={{width: 200}}
-  size='lg'
-  value={this.state.value}
-  onChangeText={text => this.setState({value: text})}
-  />
+Simple usage
+```js
+<Input style={{ width: 200 }} />
 ```
 
-只读
-```
-<Input style={{width: 200}} editable={false} />
-```
-
-禁用
-```
-<Input style={{width: 200}} disabled={true} />
-```
-
-自定义
-```
+Using the value and size attributes
+```js
 <Input
-  style={{width: 200, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b', color: '#8a6d3b', textAlign: 'right'}}
+  style={{ width: 200 }}
+  size="lg"
+  value={this.state.value}
+  onChangeText={value => this.setState({ value })}
+/>
+```
+
+Read only
+```js
+<Input style={{ width: 200 }} editable={false} />
+```
+
+Disabled
+```js
+<Input style={{ width: 200 }} disabled />
+```
+
+Customize style
+```js
+<Input
+  style={{ width: 200, backgroundColor: '#fcf8e3', borderColor: '#8a6d3b', color: '#8a6d3b', textAlign: 'right' }}
   value={this.state.valueCustom}
-  onChangeText={text => this.setState({valueCustom: text})}
-  />
+  onChangeText={value => this.setState({ value })}
+/>
 ```
 
 

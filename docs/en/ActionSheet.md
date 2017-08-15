@@ -32,7 +32,7 @@ ActionSheet 为操作选单静态类, 一般用于触发一个多项子操作供
 | title | string<br/>number<br/>element |  | 标题, 可以是字符串、数字或 React Native 组件。
 | topSeparator | string<br/>element | 'none' | 上分隔线, 可以是字符串或 React Native 组件。<br/>- none: 无<br/>- full: 满行分隔线<br/>- indent: 缩进分隔线
 | bottomSeparator | string<br/>element | 'indent' | 下分隔线, 可以是字符串或 React Native 组件。<br/>- none: 无<br/>- full: 满行分隔线<br/>- indent: 缩进分隔线
-| disabled | bool | false | 继承自 TouchableOpacity, 为 true 时组件显示为半透明且不可触摸。
+| disabled | bool | false | Tell if the input is disabled
 
 ## Example
 简单用法

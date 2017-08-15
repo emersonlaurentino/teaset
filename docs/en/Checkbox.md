@@ -13,7 +13,7 @@ Checkbox
 | checkedIconStyle | Image.style |  | 
 | uncheckedIcon | Image.source<br/>element |   | 
 | uncheckedIconStyle | Image.style |  | 
-| disabled | bool | false | Inherited from TouchableOpacity, true when the component is displayed as translucent and not touchable
+| disabled | bool | false | Tell if the input is disabled
 | hitSlop | TouchableOpacity.hitSlop | {top: 8, bottom: 8,<br/>left: 8, right: 8} | Inherited from TouchableOpacity and modify the default values.
 
 ## Events

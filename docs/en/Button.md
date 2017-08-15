@@ -9,7 +9,7 @@ To trigger an operation.
 | size | string | 'md' | - xl: oversized<br/>- lg: large<br/>- md: medium<br/>- sm: small<br/>- xs: tiny
 | title | string<br/>number<br/>element |  |
 | titleStyle | Text.style |  | The title style is invalid when the title type is element
-| disabled | bool | false | 
+| disabled | bool | false | Tell if the input is disabled
 
 ## Events
 | Event Name | Returns | Notes |
